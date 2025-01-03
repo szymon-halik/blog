@@ -5,6 +5,7 @@ export interface SiteConfig {
   slogan: string;
   description?: string;
   site: string,
+  base: string,
   social: {
     github?: string;
     linkedin?: string;
@@ -18,6 +19,7 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   site: "https://szymon-halik.github.io",
+  base: "/blog",
   title: "Szymon's blog",
   slogan: "Software developer and technology enthusiast",
   description: "I am Szymon(aka Simon) based in EU. I usually write about the software and technology related to Salesforce stuff since my career led me there. Hope you can find something useful here.",
