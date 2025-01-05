@@ -31,7 +31,7 @@
   }
 
   async function initialize() {
-    const response = await fetch('/api/search.json')
+    const response = await fetch('/blog/api/search.json')
     searchData = await response.json()
 
     searchInput = document.getElementById('search-input')
@@ -142,7 +142,7 @@
         .map(
           (post) => `
             <a
-              href="/blog/${post.slug}"
+              href="/blogs/${post.slug}"
               class="block p-4 hover:bg-gray-100 dark:hover:bg-gray-700 hover:rounded transition-all duration-200 transform"
             >
               <h3 class="font-medium text-gray-900 dark:text-white">
