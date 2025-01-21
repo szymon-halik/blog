@@ -13,7 +13,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/tailwind": "^5.1.5",
     "@tailwindcss/typography": "^0.5.10",
     "astro": "^5.0.5",
     "astro-google-analytics": "^1.0.3",
